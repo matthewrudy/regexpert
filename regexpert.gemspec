@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "regexpert"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
   s.date = "2008-12-07"
   s.summary = "A bunch of useful Regular expressions"
   s.email = "MatthewRudyJacobs@gmail.com"
