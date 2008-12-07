@@ -1,0 +1,18 @@
+Regexpert
+=========
+
+Regexpert is an attempt to remove the need to worry about which regular expression to use for validating an email, a postcode, or a social security number.
+Its inspired by the django.contrib.localflavor libraries and Datamapper dm-more's dm-validations module.
+
+Example
+=======
+
+Instead of googling "email regexp", and then coming up with numerous arguments about the right regexp to use,
+just use Regexpert
+
+  validates_format_of :email, :with => Regexpert::Format::EmailAddress
+
+BOOM!!!
+no work, no worries.
+
+Copyright (c) 2008 [Matthew Rudy Jacobs], released under the MIT license
